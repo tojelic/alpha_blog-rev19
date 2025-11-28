@@ -1,24 +1,22 @@
-# README
+# 1. Napravi Rails app (ovo kreira folder alpha_blog)
+rails new alpha_blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# 2. Uđi u projekt
+cd alpha_blog
 
-Things you may want to cover:
+# 3. Pokreni server (opcionalno, samo da vidiš da radi)
+rails server
 
-* Ruby version
+# 4. Git inicijalizacija
+git init
+git add .
+git commit -m "Initial commit"
 
-* System dependencies
+# 5. Postavi GitHub remote (ispravljen typo: remote)
+git remote add origin https://github.com/tojelic/alpha_blog-rev19.git
 
-* Configuration
+# 6. Prebaci se na main (ako nije već)
+git branch -M main
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# 7. Pushaj na GitHub
+git push -u origin main
